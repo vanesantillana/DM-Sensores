@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+        android:id="@+id/sensorluz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/allsensor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"/>
+                //android:textSize="55dp"/>
+
+            <LinearLayout
+                android:id="@+id/imagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/alicias">
+
+                <TextView
+                    android:id="@+id/titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo_libro"
+                    android:textAlignment="center"
+                    android:paddingTop="60sp"
+                    android:paddingBottom="10sp"
+                    style="@style/titulo_libro"/>
+
+                <TextView
+                    android:id="@+id/num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/dia"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/libro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/lectura"
+                android:textSize="15sp"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

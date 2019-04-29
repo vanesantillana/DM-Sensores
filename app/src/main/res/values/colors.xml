@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2BC5CA</color>
+    <color name="colorPrimaryDark">#2E978B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="dia">#FFFFFF</color>
+    <color name="tarde">#B99961</color>
+    <color name="noche">#1F203D</color>
+
+</resources>
